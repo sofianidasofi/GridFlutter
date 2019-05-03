@@ -74,7 +74,7 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  footer(BuildContext context) => Container(
+  footer(context) => Container(
         padding: new EdgeInsets.only(left: 40, right: 40, bottom: 20),
         height: 60,
         width: MediaQuery.of(context).size.width,
